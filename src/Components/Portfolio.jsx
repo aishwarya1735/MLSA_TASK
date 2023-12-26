@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/mlsa-3.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "image with all passion wishlist";
 
 /**
  * Project list
@@ -31,30 +31,31 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "My College Website using Tailwind CSS 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Collaboration to create a beginner friendly article to help explain tailwind css website UI and tooling to get started.",
+    url: "https://aishwarya1735.github.io/College-Website/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Portfolio Website using beginner Web Development",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Contributed sketch note imagery to portfolio website. These help provide visual representation of what is being taught.",
+    url: "https://aishwarya1735.github.io/profilewebpage/",
   },
   {
-    title: "My Resume Site",
+    title: "My Pastel Calculator",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created a Pastel themed calculator and deployed to GitHub pages. Includes my experience and design abilities.",
+    url: "https://aishwarya1735.github.io/PastelCalculator/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Using Flask built a to-do app",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Built to-do app using Flask with python",
+    url: "https://aishwarya1735.github.io/Flask-todo/",
   },
 ];
+
 
 const Portfolio = () => {
   return (
